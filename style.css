@@ -1,0 +1,10 @@
+:root { --bg: #f7f7f8; --fg: #1d1d1f; --muted: #6b6b70; --card: #fff; --line: #e2e2e6; --accent: #6d3ff0; }
+@media (prefers-color-scheme: dark) { :root { --bg: #18181b; --fg: #f2f2f4; --muted: #a2a2aa; --card: #222227; --line: #34343a; --accent: #a58bff; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.65 system-ui, "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; }
+main { max-width: 560px; margin: 12vh auto; padding: 0 16px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
+h1 { font-size: 20px; margin: 0 0 12px; }
+p { margin: 0 0 10px; }
+.muted { color: var(--muted); font-size: 14px; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); margin-right: 8px; }
